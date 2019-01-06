@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Score Keeper</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="scorekeeper.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/scorekeeper.css" />
 </head>
 <body>
     <h1>Current Winner: <strong><span id="win" style="color:red;">No Winner Yet</span></strong></h1>
@@ -16,8 +16,11 @@
     <button id="p2">Player Two</button>
     <button id="reset">Reset</button>
     <div>
-        <h3>Total Score:</h3>
+        <h3 style="color: blue;">Total Score:</h3>
         <pre><span id="p1Total" class="boldandbig">0</span>     <span id="p2Total" class="boldandbig">0</span></pre>
+    </div>
+    <div>
+        <h3 style="color: yellow;">SCORECARD</h3>
     </div>
     <div id="scoreCard"></div>
 <!--     <script type="text/javascript" src="http://yourjavascript.com/1004136191/scorekeeper.js"></script> -->

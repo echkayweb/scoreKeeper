@@ -42,7 +42,7 @@ p2.addEventListener("click", function() {
             gameOver = true;
             p2Total += 1;
             p2TotalDisplay.textContent = p2Total;
-            scoreCard.innerHTML += "<pre><Strong>Player 1</Strong> 0    <Strong>Player 2</Strong> +1</pre>";
+            scoreCard.innerHTML += "<pre><Strong>Player 1</Strong> 0&nbsp;    <Strong>Player 2</Strong> +1</pre>";
             winning();
         }
         p2Display.textContent=p2Score;
